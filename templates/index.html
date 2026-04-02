@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no,viewport-fit=cover">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-fullscreen">
+  <title>🐾 PatTat · Multiplayer</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+
+<!-- ══ 3D WELT ══════════════════════════════════════════════ -->
+<div id="game-container"></div>
+
+<!-- ══ HUD ══════════════════════════════════════════════════ -->
+<div id="hud">
+  <div id="crosshair"></div>
+  <div id="topbar">
+    <div class="hud-pill">🌿 <span id="hud-blaetter">0</span></div>
+    <div class="hud-pill">💰 <span id="hud-coins">0</span></div>
+    <div class="hud-pill">🐾 <span id="hud-tiere">0</span></div>
+    <div class="hud-pill" style="font-size:11px">👤 <span id="hud-name">–</span></div>
+    <div id="online-pill"><span class="dot">●</span> <span id="online-count">0</span> online</div>
+    <button class="logout-btn" onclick="doLogout()">↩</button>
+  </div>
+  <div id="nav-btns">
+    <button class="nav-btn" onclick="togglePanel('zucht')">🧬 Züchten</button>
+    <button class="nav-btn" onclick="togglePanel('markt')">🛍️ Marktplatz</button>
+    <button class="nav-btn" onclick="togglePanel('trades')">
+      🔄 Trades
+      <span class="nav-badge" id="trades-badge"></span>
+    </button>
+    <button class="nav-btn" onclick="togglePanel('stammbaum')">🌳 Stammbaum</button>
+    <button class="nav-btn" onclick="togglePanel('chat')">
+      💬 Chat
+      <span class="nav-badge" id="chat-badge"></span>
+    </button>
+  </div>
+  <div id="hint"></div>
+  <div id="controls-hint">
+    <strong>WASD</strong> Laufen &nbsp;<strong>MAUS</strong> Umsehen (Klick)&nbsp;<strong>E</strong> Aktion&nbsp;<strong>TAB</strong> Züchten&nbsp;<strong>ESC</strong> Schließen
+  </div>
+  <div id="lock-prompt">🖱️ Klicken zum Spielen</div>
+</div>
+
+<!-- ══ MOBILE CONTROLS ══════════════════════════════════════ -->
+<div id="mobile-controls">
+  <div id="cam-zone"></div>
+  <div id="joy-zone">
+    <div id="joy-ring"></div>
+    <div id="joy-nub"></div>
+  </div>
+  <button class="act-btn" id="btn-sprint">🏃<div class="btn-lbl">SPRINT</div></button>
+  <button class="act-btn" id="btn-jump">⬆️<div class="btn-lbl">SPRUNG</div></button>
+  <button class="act-btn" id="btn-interact">✋<div class="btn-lbl">AKTION</div></button>
+</div>
+
+<!-- ══ PANEL: ZÜCHTEN ════════════════════════════════════════ -->
+<div id="panel-zucht" class="side-panel">
+  <div class="panel-header">
+    <h2>🧬 Zucht-Labor</h2>
+    <button class="panel-close" onclick="closePanel()">✕</button>
+  </div>
+  <div id="zucht-stats">
+    <span>🐾 0</span><span>🧬 Gen.0</span><span>🔬 0</span>
+  </div>
+  <div id="breed-zone">
+    <h3>Zwei Eltern auswählen</h3>
+    <div id="breed-row">
+      <div class="b-slot" id="slot1" onclick="clearSlot(0)"><span>Elternteil 1</span></div>
+      <div id="b-heart">♥</div>
+      <div class="b-slot" id="slot2" onclick="clearSlot(1)"><span>Elternteil 2</span></div>
+      <button id="zuecht-btn" disabled onclick="doBreed()">🧬 Züchten!</button>
+    </div>
+    <div id="breed-preview"></div>
+  </div>
+  <div id="zucht-grid">
+    <div class="empty-msg">Zähme Wildtiere!<br>🌿 3 Blätter = 1 Tier<br><small style="color:rgba(200,180,140,.3)">Wild max Rang 100 · Züchten bis Rang 1000</small></div>
+  </div>
+</div>
+
+<!-- ══ PANEL: MARKTPLATZ ═════════════════════════════════════ -->
+<div id="panel-markt" class="side-panel">
+  <div class="panel-header">
+    <h2>🛍️ Marktplatz</h2>
+    <button class="panel-close" onclick="closePanel()">✕</button>
+  </div>
+  <div id="markt-list">
+    <div class="loading">Wird geladen…</div>
+  </div>
+</div>
+
+<!-- ══ PANEL: TRADES ═════════════════════════════════════════ -->
+<div id="panel-trades" class="side-panel">
+  <div class="panel-header">
+    <h2>🔄 Trades &amp; Spieler</h2>
+    <button class="panel-close" onclick="closePanel()">✕</button>
+  </div>
+  <div id="trades-content">
+    <div class="settings-section">
+      <h3>⚙️ Meine Verhandlungs-Einstellung</h3>
+      <div class="setting-group">
+        <div class="setting-label">Wenn jemand mein Markt-Tier verhandeln will:</div>
+        <div class="setting-row">
+          <button class="setting-btn active" data-key="auto_verhandlung" data-val="selbst" onclick="setSetting('auto_verhandlung','selbst',this)">🙋 Ich verhandle selbst</button>
+          <button class="setting-btn" data-key="auto_verhandlung" data-val="bot_wenn_offline" onclick="setSetting('auto_verhandlung','bot_wenn_offline',this)">🤖 Bot wenn offline</button>
+          <button class="setting-btn" data-key="auto_verhandlung" data-val="immer_bot" onclick="setSetting('auto_verhandlung','immer_bot',this)">🤖 Immer Bot</button>
+        </div>
+      </div>
+      <div class="setting-group dsgvo-section">
+        <div class="setting-label">⚖️ Datenschutz (DSGVO Art. 17)</div>
+        <button class="setting-btn dsgvo-btn" onclick="zeigeKontoLoeschen()">🗑️ Account löschen</button>
+      </div>
+    </div>
+    <div class="online-section">
+      <h4>🟢 Online jetzt</h4>
+      <div id="online-liste">
+        <div class="empty-msg" style="font-size:11px">Niemand online</div>
+      </div>
+    </div>
+    <div class="trades-subtitle">Offene Tausch-Angebote:</div>
+    <div id="trades-list"></div>
+  </div>
+</div>
+
+<!-- ══ PANEL: STAMMBAUM ══════════════════════════════════════ -->
+<div id="panel-stammbaum" class="side-panel">
+  <div class="panel-header">
+    <h2>🌳 Stammbaum</h2>
+    <button class="panel-close" onclick="closePanel()">✕</button>
+  </div>
+  <div id="stammbaum-content">
+    <div class="empty-msg">Zeigt den Stammbaum deines letzten Tieres</div>
+  </div>
+</div>
+
+<!-- ══ PANEL: CHAT ════════════════════════════════════════════ -->
+<div id="panel-chat" class="side-panel">
+  <div class="panel-header">
+    <button id="chat-back-btn" class="chat-back-btn" onclick="chatZurueck()" style="display:none">← Zurück</button>
+    <h2 id="chat-panel-titel">💬 Nachrichten</h2>
+    <button class="panel-close" onclick="closePanel()">✕</button>
+  </div>
+
+  <!-- Entferntes Postfach: Wird nicht mehr benötigt, wir starten direkt im Chat -->
+  <div id="chat-postfach" style="display:none"></div>
+
+  <!-- Einzelchat / Globaler Chat -->
+  <div id="chat-verlauf">
+    <div class="chat-partner-header">
+      <select id="chat-empfaenger" class="chat-select" style="max-width:200px" onchange="chatEmpfaengerWechsel()">
+        <option value="__alle__">🌍 Globaler Chat</option>
+      </select>
+      <span id="chat-partner-name" style="display:none">–</span>
+      <div class="chat-partner-btns">
+        <button id="chat-freund-btn" class="chat-action-btn" onclick="toggleFreund()">➕ Freund</button>
+        <button id="chat-block-btn" class="chat-action-btn chat-block-btn" onclick="toggleBlock()">🚫 Block</button>
+      </div>
+    </div>
+    <div id="chat-nachrichten"></div>
+    <div class="chat-eingabe">
+      <textarea id="chat-text" placeholder="Nachricht… (Enter = senden)" maxlength="500" rows="2"></textarea>
+      <button class="chat-senden-btn" onclick="chatSenden()">▶</button>
+    </div>
+  </div>
+</div>
+
+<!-- ══ DSGVO KONTO-LÖSCHEN MODAL ══════════════════════════════ -->
+<div id="dsgvo-modal" class="modal-overlay" style="display:none">
+  <div class="modal-box" style="max-width:360px">
+    <h3 style="color:#ff6060">⚠️ Account löschen</h3>
+    <p style="color:var(--dim);font-size:12px;margin:10px 0">Alle deine Daten (Tiere, Coins, Trades) werden unwiderruflich gelöscht (DSGVO Art. 17).</p>
+    <input id="dsgvo-pw" type="password" placeholder="Passwort bestätigen" style="width:100%;padding:8px;border-radius:8px;border:1px solid rgba(180,130,60,.3);background:rgba(0,0,0,.3);color:white;margin-bottom:10px">
+    <div id="dsgvo-err" style="color:#ff6060;font-size:11px;min-height:16px"></div>
+    <div style="display:flex;gap:8px;margin-top:12px">
+      <button onclick="bestaetigeLoeschen()" style="flex:1;background:rgba(200,50,50,.3);border:1px solid #aa3333;color:#ff8080;padding:8px;border-radius:8px;cursor:pointer">🗑️ Endgültig löschen</button>
+      <button onclick="document.getElementById('dsgvo-modal').style.display='none'" style="flex:1;background:rgba(255,255,255,.05);border:1px solid rgba(180,130,60,.3);color:var(--dim);padding:8px;border-radius:8px;cursor:pointer">Abbrechen</button>
+    </div>
+  </div>
+</div>
+
+<!-- ══ VERHANDLUNGS-MODAL ════════════════════════════════════ -->
+<div id="verhandlung-modal">
+  <div class="vhd-box">
+    <div class="vhd-header">
+      <h3>🤝 Preisverhandlung</h3>
+      <span id="vhd-runden" style="color:var(--dim);font-size:11px;margin-left:auto;margin-right:8px;">Runde 1</span>
+      <button class="vhd-close" onclick="closeVerhandlung()">✕</button>
+    </div>
+    <div class="vhd-tier">
+      <canvas id="vhd-canvas" width="80" height="80"></canvas>
+      <div class="vhd-info">
+        <div class="vhd-tname" id="vhd-name">–</div>
+        <div class="vhd-rang"  id="vhd-rang">–</div>
+        <div class="vhd-list">Listenpreis: 💰 <span id="vhd-listenpreis">–</span></div>
+        <div class="vhd-von-label" id="vhd-von">–</div>
+      </div>
+    </div>
+    <div class="vhd-chat" id="vhd-nachricht">Mach dein Angebot!</div>
+    <div class="vhd-input-row">
+      <label>💰 Gebot:</label>
+      <input type="number" id="vhd-gebot" min="1" max="9999999" value="0">
+      <button class="vhd-send-btn" onclick="sendeAngebot()">Bieten ▶</button>
+    </div>
+    <div class="vhd-accept" id="vhd-accept-box">
+      <p><span id="vhd-accept-label">Gegenangebot:</span> 💰 <span id="vhd-accept-price">–</span></p>
+      <button id="vhd-accept-btn">✅ Annehmen</button>
+    </div>
+  </div>
+</div>
+
+<!-- ══ TAUSCH-MODAL (Spieler↔Spieler) ═══════════════════════ -->
+<div id="trade-modal">
+  <div class="trd-box">
+    <div class="trd-header">
+      <h3>🔄 Tausch-Angebot</h3>
+      <button class="trd-close" onclick="closeTradeModal()">✕</button>
+    </div>
+    <div class="trd-meta">
+      <div>An: <strong id="trade-an">–</strong></div>
+      <div class="trd-wuenscht">Du möchtest: <span id="trade-wuenscht">–</span></div>
+    </div>
+    <div class="trd-label">🐾 Biete eines meiner Tiere:</div>
+    <div id="trade-meine-tiere">
+      <div class="empty-msg">Keine Tiere</div>
+    </div>
+    <div class="trd-oder">— oder —</div>
+    <div class="trd-coins-row">
+      <label>💰 Coins bieten:</label>
+      <input type="number" id="trade-coins-gebot" min="0" max="9999999" value="0">
+    </div>
+    <button class="trd-send-btn" onclick="sendeTrade()">📨 Angebot senden</button>
+  </div>
+</div>
+
+<!-- ══ NOTIFICATIONS ═════════════════════════════════════════ -->
+<div id="notif"></div>
+<div id="sys-notif"></div>
+
+<!-- ══ START SCREEN ══════════════════════════════════════════ -->
+<div id="start-screen">
+  <div class="s-logo">🐾</div>
+  <div class="s-title">PatTat</div>
+  <div class="s-sub">MULTIPLAYER · TRADE · ZÜCHTE</div>
+  <div class="s-feats">
+    <div class="s-feat"><span class="fi">🌍</span>3D Welt</div>
+    <div class="s-feat"><span class="fi">🧬</span>Rang 1–1000</div>
+    <div class="s-feat"><span class="fi">🤝</span>Verhandlung</div>
+    <div class="s-feat"><span class="fi">🔄</span>Tausch</div>
+    <div class="s-feat"><span class="fi">💬</span>Chat</div>
+    <div class="s-feat"><span class="fi">👥</span>Multiplayer</div>
+    <div class="s-feat"><span class="fi">🤖</span>MarktBot</div>
+  </div>
+  <button id="start-btn">Spiel laden ▶</button>
+  <div class="s-note">
+    Mehrere Spieler können gleichzeitig spielen<br>
+    🌿 3 Blätter = Tier zähmen · 🔄 Tiere tauschen · 💬 Chatten<br>
+    Wild: max Rang 100 · Züchten: bis Rang 1000 🌟
+  </div>
+</div>
+
+<!-- ══ LOGIN SCREEN ══════════════════════════════════════════ -->
+<div id="login-screen">
+  <div class="login-logo">🐾</div>
+  <div class="login-title">PatTat</div>
+  <div class="login-sub">MULTIPLAYER · ZÜCHTE · TRADE · CHAT</div>
+  <div class="login-box">
+    <div class="tab-bar">
+      <button class="tab-btn active" id="login-tab" onclick="showTab('login')">Einloggen</button>
+      <button class="tab-btn"        id="reg-tab"   onclick="showTab('reg')">Konto erstellen</button>
+    </div>
+    <form class="auth-form" id="login-form">
+      <input id="l-name" type="text"     placeholder="Benutzername"         autocomplete="username"         required>
+      <input id="l-pw"   type="password" placeholder="Passwort"             autocomplete="current-password" required>
+      <div class="auth-err" id="login-err"></div>
+      <button type="submit" class="auth-btn">▶ Einloggen</button>
+    </form>
+    <form class="auth-form" id="reg-form" style="display:none">
+      <input id="r-name" type="text"     placeholder="Benutzername (min. 3)" autocomplete="username"     required>
+      <input id="r-pw"   type="password" placeholder="Passwort (min. 8, 1 Zahl)" autocomplete="new-password" required>
+      <input id="r-pw2"  type="password" placeholder="Passwort wiederholen"   autocomplete="new-password" required>
+      <div class="auth-err" id="reg-err"></div>
+      <button type="submit" class="auth-btn">✦ Konto erstellen</button>
+    </form>
+  </div>
+  <div class="login-note">
+    Spielstand wird automatisch gespeichert · Multiplayer ready<br>
+    Wild: Rang 1–100 · Züchten: Rang 1–1000 🌟
+  </div>
+</div>
+
+<script src="/static/js/api.js"></script>
+<script src="/static/js/main.js"></script>
+</body>
+</html>
