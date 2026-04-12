@@ -1,0 +1,142 @@
+[
+  {
+    "id": "908D7FB4",
+    "von": "falram31",
+    "an": "Willi3",
+    "biete_tier_id": "3811E007",
+    "wuensche_tier_id": "114D6430",
+    "gebot_coins": 0,
+    "status": "angenommen",
+    "zeitstempel": "2026-03-21T19:38:51.355837+00:00"
+  },
+  {
+    "id": "7742CA27",
+    "von": "Willi3",
+    "an": "Willi",
+    "biete_tier_id": null,
+    "wuensche_tier_id": "643206BF",
+    "gebot_coins": 5,
+    "status": "angenommen",
+    "zeitstempel": "2026-03-21T19:40:22.259111+00:00"
+  },
+  {
+    "id": "7310D702",
+    "von": "Willi3",
+    "an": "Willi",
+    "biete_tier_id": "8EA59883",
+    "wuensche_tier_id": "643206BF",
+    "gebot_coins": 1,
+    "status": "abgelehnt",
+    "zeitstempel": "2026-03-22T20:00:15.460211+00:00"
+  },
+  {
+    "id": "27C5FC64",
+    "von": "Willi3",
+    "an": "Willi",
+    "biete_tier_id": "F4CB0457",
+    "wuensche_tier_id": "CA925880",
+    "gebot_coins": 100,
+    "status": "abgelehnt",
+    "zeitstempel": "2026-03-24T06:17:23.882478+00:00"
+  },
+  {
+    "id": "41B91DC7",
+    "von": "IchCooler",
+    "an": "Willi",
+    "biete_tier_id": "BC2C5716",
+    "wuensche_tier_id": "643206BF",
+    "gebot_coins": 0,
+    "status": "abgelehnt",
+    "zeitstempel": "2026-03-26T17:42:22.114164+00:00"
+  },
+  {
+    "id": "844CF137",
+    "von": "IchCooler",
+    "an": "Willi",
+    "biete_tier_id": "66A283B2",
+    "wuensche_tier_id": "CA925880",
+    "gebot_coins": 900,
+    "status": "angenommen",
+    "zeitstempel": "2026-03-26T17:42:46.731823+00:00"
+  },
+  {
+    "id": "8B2F8F7C",
+    "von": "Willi3",
+    "an": "IchCooler",
+    "biete_tier_id": "7EB143B9",
+    "wuensche_tier_id": "7A129B34",
+    "gebot_coins": 1,
+    "status": "angenommen",
+    "zeitstempel": "2026-03-27T10:46:57.434479+00:00"
+  },
+  {
+    "id": "00FDB634",
+    "von": "Willi3",
+    "an": "IchCooler",
+    "biete_tier_id": "63B0FD5C",
+    "wuensche_tier_id": "C3B0F46C",
+    "gebot_coins": 1,
+    "status": "abgelehnt",
+    "zeitstempel": "2026-03-27T10:48:24.268363+00:00"
+  },
+  {
+    "id": "3A3CACA5",
+    "von": "IchCooler",
+    "an": "LahmeEnte007",
+    "biete_tier_id": "1F753234",
+    "wuensche_tier_id": "33E049AD",
+    "gebot_coins": 0,
+    "status": "offen",
+    "zeitstempel": "2026-03-27T13:18:37.237531+00:00"
+  },
+  {
+    "id": "65F26AC4",
+    "von": "IchCooler",
+    "an": "Willi",
+    "biete_tier_id": "7EB143B9",
+    "wuensche_tier_id": "F3118B81",
+    "gebot_coins": 0,
+    "status": "angenommen",
+    "zeitstempel": "2026-03-28T09:42:47.774939+00:00"
+  },
+  {
+    "id": "C502614E",
+    "von": "Willi3",
+    "an": "IchCooler",
+    "biete_tier_id": "310BD5F4",
+    "wuensche_tier_id": "177527F7",
+    "gebot_coins": 10,
+    "status": "angenommen",
+    "zeitstempel": "2026-03-28T09:45:51.375168+00:00"
+  },
+  {
+    "id": "C8BD4EE8",
+    "von": "Willi3",
+    "an": "IchCooler",
+    "biete_tier_id": "C6A70D70",
+    "wuensche_tier_id": "CA925880",
+    "gebot_coins": 1,
+    "status": "angenommen",
+    "zeitstempel": "2026-03-29T07:54:34.959472+00:00"
+  },
+  {
+    "id": "FACD8E70",
+    "von": "Willi3",
+    "an": "IchCooler",
+    "biete_tier_id": "BB0349E5",
+    "wuensche_tier_id": "004FF730",
+    "gebot_coins": 0,
+    "status": "abgelehnt",
+    "zeitstempel": "2026-03-29T16:31:18.079379+00:00"
+  },
+  {
+    "id": "D6189C53",
+    "von": "IchCooler",
+    "an": "Willi3",
+    "biete_tier_id": "936BFC41",
+    "wuensche_tier_id": "1C4F4882",
+    "gebot_coins": 0,
+    "status": "abgelehnt",
+    "zeitstempel": "2026-03-31T15:21:59.799337+00:00"
+  }
+]
