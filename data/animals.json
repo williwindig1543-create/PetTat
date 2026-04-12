@@ -1374,7 +1374,7 @@
     "name": "Lumi Berry",
     "art": "Panda",
     "emoji": "🐼",
-    "besitzer": "Markt",
+    "besitzer": "Willi3",
     "generation": 1,
     "genetik": {
       "koerper_farbe": [
@@ -1433,8 +1433,8 @@
       "vater_name": "Dew Aura",
       "mutter_name": "Fern Shade"
     },
-    "markt_preis": 8,
-    "markt_von": "Willi",
+    "markt_preis": null,
+    "markt_von": null,
     "basis_preis": 8,
     "meta": {
       "mutation": false,
@@ -31363,7 +31363,7 @@
     "name": "River Dell",
     "art": "Koala-Wolf-Hybrid",
     "emoji": "🐨🐺",
-    "besitzer": "Willi3",
+    "besitzer": "Markt",
     "generation": 16,
     "genetik": {
       "koerper_farbe": [
@@ -31419,8 +31419,8 @@
       "vater_name": "Solstice Vale",
       "mutter_name": "Echo Luster"
     },
-    "markt_preis": null,
-    "markt_von": null,
+    "markt_preis": 52440,
+    "markt_von": "Willi3",
     "basis_preis": 52440,
     "meta": {
       "mutation": false,
@@ -32153,7 +32153,7 @@
     "name": "Ember Glow",
     "art": "Koala-Wolf-Hybrid",
     "emoji": "🐨🐺",
-    "besitzer": "Willi3",
+    "besitzer": "Markt",
     "generation": 21,
     "genetik": {
       "koerper_farbe": [
@@ -32209,8 +32209,8 @@
       "vater_name": "Wisp Ripple",
       "mutter_name": "Wisp Godspawn"
     },
-    "markt_preis": null,
-    "markt_von": null,
+    "markt_preis": 54720,
+    "markt_von": "Willi3",
     "basis_preis": 54720,
     "meta": {
       "mutation": false,
@@ -32295,7 +32295,7 @@
     "name": "Altair Twinkle",
     "art": "Koala-Wolf-Hybrid",
     "emoji": "🐨🐺",
-    "besitzer": "Willi3",
+    "besitzer": "Markt",
     "generation": 22,
     "genetik": {
       "koerper_farbe": [
@@ -32351,8 +32351,8 @@
       "vater_name": "Wisp Ripple",
       "mutter_name": "Ember Glow"
     },
-    "markt_preis": null,
-    "markt_von": null,
+    "markt_preis": 62700,
+    "markt_von": "Willi3",
     "basis_preis": 62700,
     "meta": {
       "mutation": false,
@@ -32366,7 +32366,7 @@
     "name": "Talon Thicket",
     "art": "Koala-Wolf-Hybrid",
     "emoji": "🐨🐺",
-    "besitzer": "Willi3",
+    "besitzer": "MarktBot",
     "generation": 23,
     "genetik": {
       "koerper_farbe": [
@@ -32645,7 +32645,7 @@
     "name": "Sturm Knoll",
     "art": "Fuchs",
     "emoji": "🦊",
-    "besitzer": null,
+    "besitzer": "Willi3",
     "generation": 0,
     "genetik": {
       "koerper_farbe": [
@@ -33165,7 +33165,7 @@
     "name": "Nimbus Flare",
     "art": "Fuchs",
     "emoji": "🦊",
-    "besitzer": "IchCooler",
+    "besitzer": "Markt",
     "generation": 0,
     "genetik": {
       "koerper_farbe": [
@@ -33202,8 +33202,8 @@
       "vater_name": null,
       "mutter_name": null
     },
-    "markt_preis": null,
-    "markt_von": null,
+    "markt_preis": 528,
+    "markt_von": "IchCooler",
     "basis_preis": 528,
     "meta": {
       "mutation": false,
@@ -33269,7 +33269,7 @@
     "name": "Ivy Veil",
     "art": "Wolf",
     "emoji": "🐺",
-    "besitzer": null,
+    "besitzer": "IchCooler",
     "generation": 0,
     "genetik": {
       "koerper_farbe": [
@@ -33321,7 +33321,7 @@
     "name": "Frost Ember",
     "art": "Wolf",
     "emoji": "🐺",
-    "besitzer": null,
+    "besitzer": "Willi3",
     "generation": 0,
     "genetik": {
       "koerper_farbe": [
@@ -33425,7 +33425,7 @@
     "name": "Gischt Shade",
     "art": "Fuchs",
     "emoji": "🦊",
-    "besitzer": null,
+    "besitzer": "Markt",
     "generation": 0,
     "genetik": {
       "koerper_farbe": [
@@ -33462,8 +33462,8 @@
       "vater_name": null,
       "mutter_name": null
     },
-    "markt_preis": null,
-    "markt_von": null,
+    "markt_preis": 154,
+    "markt_von": "Willi3",
     "basis_preis": 154,
     "meta": {
       "mutation": false,
@@ -33477,7 +33477,7 @@
     "name": "Zephyr Thicket",
     "art": "Fuchs",
     "emoji": "🦊",
-    "besitzer": null,
+    "besitzer": "Willi3",
     "generation": 0,
     "genetik": {
       "koerper_farbe": [
@@ -33581,7 +33581,7 @@
     "name": "Frost Twinkle",
     "art": "Koala-Wolf-Hybrid",
     "emoji": "🐨🐺",
-    "besitzer": "Willi3",
+    "besitzer": "Markt",
     "generation": 24,
     "genetik": {
       "koerper_farbe": [
@@ -33637,8 +33637,8 @@
       "vater_name": "Altair Twinkle",
       "mutter_name": "Talon Thicket"
     },
-    "markt_preis": null,
-    "markt_von": null,
+    "markt_preis": 59280,
+    "markt_von": "Willi3",
     "basis_preis": 59280,
     "meta": {
       "mutation": false,
@@ -33716,6 +33716,1255 @@
       "super_mutation": false,
       "ist_neue_art": false,
       "zucht_nummer": 624
+    }
+  },
+  {
+    "id": "BF1DD581",
+    "name": "Nook Breeze",
+    "art": "Koala-Wolf-Hybrid",
+    "emoji": "🐨🐺",
+    "besitzer": "Willi3",
+    "generation": 26,
+    "genetik": {
+      "koerper_farbe": [
+        53,
+        148,
+        40
+      ],
+      "bauch_farbe": [
+        74,
+        123,
+        96
+      ],
+      "ohr_farbe": [
+        65,
+        48,
+        42
+      ],
+      "groesse": 0.795,
+      "speed": 0.685,
+      "ohr_groesse": 0.642,
+      "rundheit": 1.134,
+      "flauschig": 0.961,
+      "rang": 163,
+      "stufe": "Übernatürlich",
+      "rang_farbe": "#ff8833",
+      "ist_zucht_rang": true,
+      "grosseltern_farben": {
+        "koerper": [
+          58,
+          157,
+          54
+        ],
+        "bauch": [
+          62,
+          114,
+          92
+        ],
+        "ohr": [
+          53,
+          36,
+          48
+        ]
+      },
+      "grosseltern_rang": 164,
+      "grosseltern_werte": {
+        "groesse": 0.859,
+        "speed": 0.623
+      }
+    },
+    "stammbaum": {
+      "vater_id": "E69F98AD",
+      "mutter_id": "488ABBA7",
+      "vater_name": "Altair Twinkle",
+      "mutter_name": "Licht Ember"
+    },
+    "markt_preis": null,
+    "markt_von": null,
+    "basis_preis": 61940,
+    "meta": {
+      "mutation": false,
+      "super_mutation": false,
+      "ist_neue_art": false,
+      "zucht_nummer": 625
+    }
+  },
+  {
+    "id": "76909225",
+    "name": "Lyra Burrow",
+    "art": "Koala-Wolf-Hybrid",
+    "emoji": "🐨🐺",
+    "besitzer": "Willi3",
+    "generation": 23,
+    "genetik": {
+      "koerper_farbe": [
+        93,
+        182,
+        131
+      ],
+      "bauch_farbe": [
+        123,
+        152,
+        125
+      ],
+      "ohr_farbe": [
+        106,
+        105,
+        147
+      ],
+      "groesse": 1.051,
+      "speed": 0.58,
+      "ohr_groesse": 0.526,
+      "rundheit": 1.135,
+      "flauschig": 1.135,
+      "rang": 98,
+      "stufe": "Absolut",
+      "rang_farbe": "#ffffff",
+      "ist_zucht_rang": false,
+      "grosseltern_farben": {
+        "koerper": [
+          86,
+          182,
+          134
+        ],
+        "bauch": [
+          122,
+          157,
+          121
+        ],
+        "ohr": [
+          105,
+          103,
+          143
+        ]
+      },
+      "grosseltern_rang": 101,
+      "grosseltern_werte": {
+        "groesse": 1.251,
+        "speed": 0.5095
+      }
+    },
+    "stammbaum": {
+      "vater_id": "E69F98AD",
+      "mutter_id": "DEC5FC6D",
+      "vater_name": "Altair Twinkle",
+      "mutter_name": "Dämmer Tuft"
+    },
+    "markt_preis": null,
+    "markt_von": null,
+    "basis_preis": 21560,
+    "meta": {
+      "mutation": false,
+      "super_mutation": false,
+      "ist_neue_art": false,
+      "zucht_nummer": 626
+    }
+  },
+  {
+    "id": "FD0D4A8C",
+    "name": "Sirius Ripple",
+    "art": "Koala",
+    "emoji": "🐨",
+    "besitzer": "Sonic",
+    "generation": 0,
+    "genetik": {
+      "koerper_farbe": [
+        241,
+        173,
+        221
+      ],
+      "bauch_farbe": [
+        10,
+        135,
+        84
+      ],
+      "ohr_farbe": [
+        217,
+        254,
+        9
+      ],
+      "groesse": 1.223,
+      "speed": 0.64,
+      "ohr_groesse": 0.849,
+      "rundheit": 0.827,
+      "flauschig": 0.437,
+      "rang": 5,
+      "stufe": "Gewöhnlich",
+      "rang_farbe": "#aaaaaa",
+      "ist_zucht_rang": false,
+      "grosseltern_farben": null,
+      "grosseltern_rang": 5,
+      "grosseltern_werte": null
+    },
+    "stammbaum": {
+      "vater_id": null,
+      "mutter_id": null,
+      "vater_name": null,
+      "mutter_name": null
+    },
+    "markt_preis": null,
+    "markt_von": null,
+    "basis_preis": 40,
+    "meta": {
+      "mutation": false,
+      "super_mutation": false,
+      "ist_neue_art": false,
+      "zucht_nummer": 627
+    }
+  },
+  {
+    "id": "B77A5FB3",
+    "name": "Gleam Stone",
+    "art": "Hase",
+    "emoji": "🐰",
+    "besitzer": null,
+    "generation": 0,
+    "genetik": {
+      "koerper_farbe": [
+        238,
+        233,
+        10
+      ],
+      "bauch_farbe": [
+        52,
+        176,
+        217
+      ],
+      "ohr_farbe": [
+        40,
+        157,
+        164
+      ],
+      "groesse": 0.574,
+      "speed": 1.777,
+      "ohr_groesse": 0.967,
+      "rundheit": 0.618,
+      "flauschig": 1.243,
+      "rang": 1,
+      "stufe": "Gewöhnlich",
+      "rang_farbe": "#aaaaaa",
+      "ist_zucht_rang": false,
+      "grosseltern_farben": null,
+      "grosseltern_rang": 1,
+      "grosseltern_werte": null
+    },
+    "stammbaum": {
+      "vater_id": null,
+      "mutter_id": null,
+      "vater_name": null,
+      "mutter_name": null
+    },
+    "markt_preis": null,
+    "markt_von": null,
+    "basis_preis": 8,
+    "meta": {
+      "mutation": false,
+      "super_mutation": false,
+      "ist_neue_art": false,
+      "zucht_nummer": 628
+    }
+  },
+  {
+    "id": "662935BD",
+    "name": "Zephyr Luster",
+    "art": "Wolf",
+    "emoji": "🐺",
+    "besitzer": null,
+    "generation": 0,
+    "genetik": {
+      "koerper_farbe": [
+        51,
+        220,
+        54
+      ],
+      "bauch_farbe": [
+        4,
+        82,
+        88
+      ],
+      "ohr_farbe": [
+        205,
+        141,
+        103
+      ],
+      "groesse": 1.096,
+      "speed": 1.721,
+      "ohr_groesse": 0.958,
+      "rundheit": 0.752,
+      "flauschig": 1.324,
+      "rang": 18,
+      "stufe": "Ungewöhnlich",
+      "rang_farbe": "#55dd55",
+      "ist_zucht_rang": false,
+      "grosseltern_farben": null,
+      "grosseltern_rang": 18,
+      "grosseltern_werte": null
+    },
+    "stammbaum": {
+      "vater_id": null,
+      "mutter_id": null,
+      "vater_name": null,
+      "mutter_name": null
+    },
+    "markt_preis": null,
+    "markt_von": null,
+    "basis_preis": 252,
+    "meta": {
+      "mutation": false,
+      "super_mutation": false,
+      "ist_neue_art": false,
+      "zucht_nummer": 629
+    }
+  },
+  {
+    "id": "140C5798",
+    "name": "Sprout Paws",
+    "art": "Panda",
+    "emoji": "🐼",
+    "besitzer": "IchCooler",
+    "generation": 0,
+    "genetik": {
+      "koerper_farbe": [
+        14,
+        49,
+        7
+      ],
+      "bauch_farbe": [
+        190,
+        225,
+        202
+      ],
+      "ohr_farbe": [
+        25,
+        106,
+        113
+      ],
+      "groesse": 1.545,
+      "speed": 0.33,
+      "ohr_groesse": 0.651,
+      "rundheit": 1.343,
+      "flauschig": 1.222,
+      "rang": 1,
+      "stufe": "Gewöhnlich",
+      "rang_farbe": "#aaaaaa",
+      "ist_zucht_rang": false,
+      "grosseltern_farben": null,
+      "grosseltern_rang": 1,
+      "grosseltern_werte": null
+    },
+    "stammbaum": {
+      "vater_id": null,
+      "mutter_id": null,
+      "vater_name": null,
+      "mutter_name": null
+    },
+    "markt_preis": null,
+    "markt_von": null,
+    "basis_preis": 8,
+    "meta": {
+      "mutation": false,
+      "super_mutation": false,
+      "ist_neue_art": false,
+      "zucht_nummer": 630
+    }
+  },
+  {
+    "id": "A3807100",
+    "name": "Sprout Stormcaller",
+    "art": "Koala-Wolf-Hybrid",
+    "emoji": "🐨🐺",
+    "besitzer": "Willi3",
+    "generation": 27,
+    "genetik": {
+      "koerper_farbe": [
+        44,
+        152,
+        46
+      ],
+      "bauch_farbe": [
+        67,
+        129,
+        96
+      ],
+      "ohr_farbe": [
+        50,
+        40,
+        41
+      ],
+      "groesse": 0.784,
+      "speed": 0.572,
+      "ohr_groesse": 0.605,
+      "rundheit": 1.205,
+      "flauschig": 1.097,
+      "rang": 160,
+      "stufe": "Übernatürlich",
+      "rang_farbe": "#ff8833",
+      "ist_zucht_rang": true,
+      "grosseltern_farben": {
+        "koerper": [
+          55,
+          152,
+          49
+        ],
+        "bauch": [
+          64,
+          117,
+          96
+        ],
+        "ohr": [
+          59,
+          42,
+          42
+        ]
+      },
+      "grosseltern_rang": 163,
+      "grosseltern_werte": {
+        "groesse": 0.823,
+        "speed": 0.6635
+      }
+    },
+    "stammbaum": {
+      "vater_id": "488ABBA7",
+      "mutter_id": "BF1DD581",
+      "vater_name": "Licht Ember",
+      "mutter_name": "Nook Breeze"
+    },
+    "markt_preis": null,
+    "markt_von": null,
+    "basis_preis": 60800,
+    "meta": {
+      "mutation": false,
+      "super_mutation": false,
+      "ist_neue_art": false,
+      "zucht_nummer": 631
+    }
+  },
+  {
+    "id": "6E4A3E8F",
+    "name": "Nimbus Surge",
+    "art": "Fuchs",
+    "emoji": "🦊",
+    "besitzer": "Willi3",
+    "generation": 0,
+    "genetik": {
+      "koerper_farbe": [
+        117,
+        191,
+        234
+      ],
+      "bauch_farbe": [
+        198,
+        99,
+        107
+      ],
+      "ohr_farbe": [
+        40,
+        149,
+        115
+      ],
+      "groesse": 0.829,
+      "speed": 1.313,
+      "ohr_groesse": 0.877,
+      "rundheit": 0.832,
+      "flauschig": 0.72,
+      "rang": 2,
+      "stufe": "Gewöhnlich",
+      "rang_farbe": "#aaaaaa",
+      "ist_zucht_rang": false,
+      "grosseltern_farben": null,
+      "grosseltern_rang": 2,
+      "grosseltern_werte": null
+    },
+    "stammbaum": {
+      "vater_id": null,
+      "mutter_id": null,
+      "vater_name": null,
+      "mutter_name": null
+    },
+    "markt_preis": null,
+    "markt_von": null,
+    "basis_preis": 16,
+    "meta": {
+      "mutation": false,
+      "super_mutation": false,
+      "ist_neue_art": false,
+      "zucht_nummer": 632
+    }
+  },
+  {
+    "id": "24BA4812",
+    "name": "Glut Celestialpad",
+    "art": "Fuchs-Hase-Hybrid",
+    "emoji": "🦊🐰",
+    "besitzer": "Willi3",
+    "generation": 26,
+    "genetik": {
+      "koerper_farbe": [
+        55,
+        99,
+        124
+      ],
+      "bauch_farbe": [
+        40,
+        138,
+        107
+      ],
+      "ohr_farbe": [
+        129,
+        127,
+        113
+      ],
+      "groesse": 0.557,
+      "speed": 0.553,
+      "ohr_groesse": 0.52,
+      "rundheit": 1.066,
+      "flauschig": 1.059,
+      "rang": 130,
+      "stufe": "Übernatürlich",
+      "rang_farbe": "#ff8833",
+      "ist_zucht_rang": true,
+      "grosseltern_farben": {
+        "koerper": [
+          45,
+          102,
+          131
+        ],
+        "bauch": [
+          40,
+          133,
+          106
+        ],
+        "ohr": [
+          137,
+          134,
+          101
+        ]
+      },
+      "grosseltern_rang": 132,
+      "grosseltern_werte": {
+        "groesse": 0.6505,
+        "speed": 0.657
+      }
+    },
+    "stammbaum": {
+      "vater_id": "488ABBA7",
+      "mutter_id": "CA925880",
+      "vater_name": "Licht Ember",
+      "mutter_name": "Flint Bark"
+    },
+    "markt_preis": null,
+    "markt_von": null,
+    "basis_preis": 49400,
+    "meta": {
+      "mutation": false,
+      "super_mutation": false,
+      "ist_neue_art": false,
+      "zucht_nummer": 633
+    }
+  },
+  {
+    "id": "B32DB8A1",
+    "name": "Thistle Shade",
+    "art": "Fuchs-Hase-Hybrid",
+    "emoji": "🦊🐰",
+    "besitzer": "Willi3",
+    "generation": 27,
+    "genetik": {
+      "koerper_farbe": [
+        59,
+        122,
+        92
+      ],
+      "bauch_farbe": [
+        57,
+        131,
+        95
+      ],
+      "ohr_farbe": [
+        104,
+        82,
+        70
+      ],
+      "groesse": 0.584,
+      "speed": 0.555,
+      "ohr_groesse": 0.514,
+      "rundheit": 1.098,
+      "flauschig": 1.098,
+      "rang": 149,
+      "stufe": "Übernatürlich",
+      "rang_farbe": "#ff8833",
+      "ist_zucht_rang": true,
+      "grosseltern_farben": {
+        "koerper": [
+          56,
+          127,
+          91
+        ],
+        "bauch": [
+          47,
+          125,
+          101
+        ],
+        "ohr": [
+          91,
+          81,
+          78
+        ]
+      },
+      "grosseltern_rang": 147,
+      "grosseltern_werte": {
+        "groesse": 0.704,
+        "speed": 0.5975
+      }
+    },
+    "stammbaum": {
+      "vater_id": "24BA4812",
+      "mutter_id": "488ABBA7",
+      "vater_name": "Glut Celestialpad",
+      "mutter_name": "Licht Ember"
+    },
+    "markt_preis": null,
+    "markt_von": null,
+    "basis_preis": 56620,
+    "meta": {
+      "mutation": false,
+      "super_mutation": false,
+      "ist_neue_art": false,
+      "zucht_nummer": 634
+    }
+  },
+  {
+    "id": "5EAE6251",
+    "name": "Nook Dusk",
+    "art": "Fuchs",
+    "emoji": "🦊",
+    "besitzer": null,
+    "generation": 0,
+    "genetik": {
+      "koerper_farbe": [
+        124,
+        166,
+        185
+      ],
+      "bauch_farbe": [
+        109,
+        19,
+        118
+      ],
+      "ohr_farbe": [
+        250,
+        188,
+        49
+      ],
+      "groesse": 0.687,
+      "speed": 1.322,
+      "ohr_groesse": 0.3,
+      "rundheit": 0.804,
+      "flauschig": 1.149,
+      "rang": 8,
+      "stufe": "Gewöhnlich",
+      "rang_farbe": "#aaaaaa",
+      "ist_zucht_rang": false,
+      "grosseltern_farben": null,
+      "grosseltern_rang": 8,
+      "grosseltern_werte": null
+    },
+    "stammbaum": {
+      "vater_id": null,
+      "mutter_id": null,
+      "vater_name": null,
+      "mutter_name": null
+    },
+    "markt_preis": null,
+    "markt_von": null,
+    "basis_preis": 64,
+    "meta": {
+      "mutation": false,
+      "super_mutation": false,
+      "ist_neue_art": false,
+      "zucht_nummer": 635
+    }
+  },
+  {
+    "id": "4BBEE842",
+    "name": "Lyra Celestialpad",
+    "art": "Huhn",
+    "emoji": "🐔",
+    "besitzer": "Willi3",
+    "generation": 0,
+    "genetik": {
+      "koerper_farbe": [
+        191,
+        63,
+        172
+      ],
+      "bauch_farbe": [
+        160,
+        124,
+        223
+      ],
+      "ohr_farbe": [
+        189,
+        162,
+        165
+      ],
+      "groesse": 0.654,
+      "speed": 0.991,
+      "ohr_groesse": 0.938,
+      "rundheit": 0.986,
+      "flauschig": 0.658,
+      "rang": 8,
+      "stufe": "Gewöhnlich",
+      "rang_farbe": "#aaaaaa",
+      "ist_zucht_rang": false,
+      "grosseltern_farben": null,
+      "grosseltern_rang": 8,
+      "grosseltern_werte": null
+    },
+    "stammbaum": {
+      "vater_id": null,
+      "mutter_id": null,
+      "vater_name": null,
+      "mutter_name": null
+    },
+    "markt_preis": null,
+    "markt_von": null,
+    "basis_preis": 64,
+    "meta": {
+      "mutation": false,
+      "super_mutation": false,
+      "ist_neue_art": false,
+      "zucht_nummer": 636
+    }
+  },
+  {
+    "id": "19654E05",
+    "name": "Boo Ember",
+    "art": "Koala-Wolf-Hybrid",
+    "emoji": "🐨🐺",
+    "besitzer": "Willi3",
+    "generation": 27,
+    "genetik": {
+      "koerper_farbe": [
+        51,
+        146,
+        49
+      ],
+      "bauch_farbe": [
+        53,
+        117,
+        102
+      ],
+      "ohr_farbe": [
+        50,
+        44,
+        40
+      ],
+      "groesse": 0.979,
+      "speed": 0.514,
+      "ohr_groesse": 0.717,
+      "rundheit": 1.07,
+      "flauschig": 0.968,
+      "rang": 159,
+      "stufe": "Übernatürlich",
+      "rang_farbe": "#ff8833",
+      "ist_zucht_rang": true,
+      "grosseltern_farben": {
+        "koerper": [
+          55,
+          152,
+          49
+        ],
+        "bauch": [
+          64,
+          117,
+          96
+        ],
+        "ohr": [
+          59,
+          42,
+          42
+        ]
+      },
+      "grosseltern_rang": 163,
+      "grosseltern_werte": {
+        "groesse": 0.823,
+        "speed": 0.6635
+      }
+    },
+    "stammbaum": {
+      "vater_id": "488ABBA7",
+      "mutter_id": "BF1DD581",
+      "vater_name": "Licht Ember",
+      "mutter_name": "Nook Breeze"
+    },
+    "markt_preis": null,
+    "markt_von": null,
+    "basis_preis": 60420,
+    "meta": {
+      "mutation": false,
+      "super_mutation": false,
+      "ist_neue_art": false,
+      "zucht_nummer": 637
+    }
+  },
+  {
+    "id": "7664E8F8",
+    "name": "Lumi Bluff",
+    "art": "Koala-Wolf-Hybrid",
+    "emoji": "🐨🐺",
+    "besitzer": "Willi3",
+    "generation": 27,
+    "genetik": {
+      "koerper_farbe": [
+        51,
+        157,
+        49
+      ],
+      "bauch_farbe": [
+        70,
+        128,
+        95
+      ],
+      "ohr_farbe": [
+        58,
+        45,
+        31
+      ],
+      "groesse": 0.743,
+      "speed": 0.72,
+      "ohr_groesse": 0.588,
+      "rundheit": 1.155,
+      "flauschig": 1.077,
+      "rang": 165,
+      "stufe": "Übernatürlich",
+      "rang_farbe": "#ff8833",
+      "ist_zucht_rang": true,
+      "grosseltern_farben": {
+        "koerper": [
+          55,
+          152,
+          49
+        ],
+        "bauch": [
+          64,
+          117,
+          96
+        ],
+        "ohr": [
+          59,
+          42,
+          42
+        ]
+      },
+      "grosseltern_rang": 163,
+      "grosseltern_werte": {
+        "groesse": 0.823,
+        "speed": 0.6635
+      }
+    },
+    "stammbaum": {
+      "vater_id": "488ABBA7",
+      "mutter_id": "BF1DD581",
+      "vater_name": "Licht Ember",
+      "mutter_name": "Nook Breeze"
+    },
+    "markt_preis": null,
+    "markt_von": null,
+    "basis_preis": 62700,
+    "meta": {
+      "mutation": false,
+      "super_mutation": false,
+      "ist_neue_art": false,
+      "zucht_nummer": 638
+    }
+  },
+  {
+    "id": "096189B9",
+    "name": "Aether Paws",
+    "art": "Koala-Wolf-Hybrid",
+    "emoji": "🐨🐺",
+    "besitzer": "Willi3",
+    "generation": 28,
+    "genetik": {
+      "koerper_farbe": [
+        48,
+        169,
+        62
+      ],
+      "bauch_farbe": [
+        62,
+        120,
+        83
+      ],
+      "ohr_farbe": [
+        54,
+        45,
+        47
+      ],
+      "groesse": 0.65,
+      "speed": 0.67,
+      "ohr_groesse": 0.579,
+      "rundheit": 1.159,
+      "flauschig": 0.955,
+      "rang": 159,
+      "stufe": "Übernatürlich",
+      "rang_farbe": "#ff8833",
+      "ist_zucht_rang": true,
+      "grosseltern_farben": {
+        "koerper": [
+          54,
+          156,
+          54
+        ],
+        "bauch": [
+          62,
+          120,
+          95
+        ],
+        "ohr": [
+          56,
+          40,
+          37
+        ]
+      },
+      "grosseltern_rang": 164,
+      "grosseltern_werte": {
+        "groesse": 0.7969999999999999,
+        "speed": 0.681
+      }
+    },
+    "stammbaum": {
+      "vater_id": "488ABBA7",
+      "mutter_id": "7664E8F8",
+      "vater_name": "Licht Ember",
+      "mutter_name": "Lumi Bluff"
+    },
+    "markt_preis": null,
+    "markt_von": null,
+    "basis_preis": 60420,
+    "meta": {
+      "mutation": false,
+      "super_mutation": false,
+      "ist_neue_art": false,
+      "zucht_nummer": 639
+    }
+  },
+  {
+    "id": "37669DDA",
+    "name": "Lumi Tide",
+    "art": "Koala-Wolf-Hybrid",
+    "emoji": "🐨🐺",
+    "besitzer": "Willi3",
+    "generation": 28,
+    "genetik": {
+      "koerper_farbe": [
+        55,
+        143,
+        53
+      ],
+      "bauch_farbe": [
+        71,
+        125,
+        84
+      ],
+      "ohr_farbe": [
+        56,
+        42,
+        39
+      ],
+      "groesse": 0.908,
+      "speed": 0.553,
+      "ohr_groesse": 0.672,
+      "rundheit": 1.188,
+      "flauschig": 0.95,
+      "rang": 165,
+      "stufe": "Übernatürlich",
+      "rang_farbe": "#ff8833",
+      "ist_zucht_rang": true,
+      "grosseltern_farben": {
+        "koerper": [
+          54,
+          156,
+          54
+        ],
+        "bauch": [
+          62,
+          120,
+          95
+        ],
+        "ohr": [
+          56,
+          40,
+          37
+        ]
+      },
+      "grosseltern_rang": 164,
+      "grosseltern_werte": {
+        "groesse": 0.7969999999999999,
+        "speed": 0.681
+      }
+    },
+    "stammbaum": {
+      "vater_id": "488ABBA7",
+      "mutter_id": "7664E8F8",
+      "vater_name": "Licht Ember",
+      "mutter_name": "Lumi Bluff"
+    },
+    "markt_preis": null,
+    "markt_von": null,
+    "basis_preis": 62700,
+    "meta": {
+      "mutation": false,
+      "super_mutation": false,
+      "ist_neue_art": false,
+      "zucht_nummer": 640
+    }
+  },
+  {
+    "id": "DD66A611",
+    "name": "Schatten Stone",
+    "art": "Koala-Wolf-Hybrid",
+    "emoji": "🐨🐺",
+    "besitzer": "Willi3",
+    "generation": 29,
+    "genetik": {
+      "koerper_farbe": [
+        40,
+        143,
+        44
+      ],
+      "bauch_farbe": [
+        57,
+        114,
+        99
+      ],
+      "ohr_farbe": [
+        61,
+        45,
+        34
+      ],
+      "groesse": 0.797,
+      "speed": 0.555,
+      "ohr_groesse": 0.613,
+      "rundheit": 1.164,
+      "flauschig": 1.022,
+      "rang": 167,
+      "stufe": "Übernatürlich",
+      "rang_farbe": "#ff8833",
+      "ist_zucht_rang": true,
+      "grosseltern_farben": {
+        "koerper": [
+          53,
+          150,
+          51
+        ],
+        "bauch": [
+          70,
+          126,
+          89
+        ],
+        "ohr": [
+          57,
+          43,
+          35
+        ]
+      },
+      "grosseltern_rang": 165,
+      "grosseltern_werte": {
+        "groesse": 0.8255,
+        "speed": 0.6365000000000001
+      }
+    },
+    "stammbaum": {
+      "vater_id": "7664E8F8",
+      "mutter_id": "37669DDA",
+      "vater_name": "Lumi Bluff",
+      "mutter_name": "Lumi Tide"
+    },
+    "markt_preis": null,
+    "markt_von": null,
+    "basis_preis": 63460,
+    "meta": {
+      "mutation": false,
+      "super_mutation": false,
+      "ist_neue_art": false,
+      "zucht_nummer": 641
+    }
+  },
+  {
+    "id": "436D7334",
+    "name": "Nimbus Creek",
+    "art": "Koala-Wolf-Hybrid",
+    "emoji": "🐨🐺",
+    "besitzer": "Willi3",
+    "generation": 30,
+    "genetik": {
+      "koerper_farbe": [
+        58,
+        143,
+        55
+      ],
+      "bauch_farbe": [
+        68,
+        118,
+        107
+      ],
+      "ohr_farbe": [
+        56,
+        35,
+        33
+      ],
+      "groesse": 0.934,
+      "speed": 0.495,
+      "ohr_groesse": 0.583,
+      "rundheit": 1.068,
+      "flauschig": 1.03,
+      "rang": 168,
+      "stufe": "Übernatürlich",
+      "rang_farbe": "#ff8833",
+      "ist_zucht_rang": true,
+      "grosseltern_farben": {
+        "koerper": [
+          45,
+          150,
+          46
+        ],
+        "bauch": [
+          63,
+          121,
+          97
+        ],
+        "ohr": [
+          59,
+          45,
+          32
+        ]
+      },
+      "grosseltern_rang": 166,
+      "grosseltern_werte": {
+        "groesse": 0.77,
+        "speed": 0.6375
+      }
+    },
+    "stammbaum": {
+      "vater_id": "DD66A611",
+      "mutter_id": "7664E8F8",
+      "vater_name": "Schatten Stone",
+      "mutter_name": "Lumi Bluff"
+    },
+    "markt_preis": null,
+    "markt_von": null,
+    "basis_preis": 63840,
+    "meta": {
+      "mutation": false,
+      "super_mutation": false,
+      "ist_neue_art": false,
+      "zucht_nummer": 642
+    }
+  },
+  {
+    "id": "AA78C8E4",
+    "name": "Nova Pattat",
+    "art": "Fuchs",
+    "emoji": "🦊",
+    "besitzer": null,
+    "generation": 0,
+    "genetik": {
+      "koerper_farbe": [
+        6,
+        38,
+        205
+      ],
+      "bauch_farbe": [
+        7,
+        232,
+        246
+      ],
+      "ohr_farbe": [
+        45,
+        141,
+        212
+      ],
+      "groesse": 0.981,
+      "speed": 1.515,
+      "ohr_groesse": 0.704,
+      "rundheit": 1.06,
+      "flauschig": 0.324,
+      "rang": 51,
+      "stufe": "Mythisch",
+      "rang_farbe": "#ff5555",
+      "ist_zucht_rang": false,
+      "grosseltern_farben": null,
+      "grosseltern_rang": 51,
+      "grosseltern_werte": null
+    },
+    "stammbaum": {
+      "vater_id": null,
+      "mutter_id": null,
+      "vater_name": null,
+      "mutter_name": null
+    },
+    "markt_preis": null,
+    "markt_von": null,
+    "basis_preis": 3672,
+    "meta": {
+      "mutation": false,
+      "super_mutation": false,
+      "ist_neue_art": false,
+      "zucht_nummer": 643
+    }
+  },
+  {
+    "id": "2812DE0B",
+    "name": "Sable Gale",
+    "art": "Hase",
+    "emoji": "🐰",
+    "besitzer": null,
+    "generation": 0,
+    "genetik": {
+      "koerper_farbe": [
+        85,
+        248,
+        173
+      ],
+      "bauch_farbe": [
+        130,
+        186,
+        129
+      ],
+      "ohr_farbe": [
+        77,
+        175,
+        90
+      ],
+      "groesse": 0.46,
+      "speed": 1.428,
+      "ohr_groesse": 0.294,
+      "rundheit": 0.725,
+      "flauschig": 1.127,
+      "rang": 25,
+      "stufe": "Selten",
+      "rang_farbe": "#4499ff",
+      "ist_zucht_rang": false,
+      "grosseltern_farben": null,
+      "grosseltern_rang": 25,
+      "grosseltern_werte": null
+    },
+    "stammbaum": {
+      "vater_id": null,
+      "mutter_id": null,
+      "vater_name": null,
+      "mutter_name": null
+    },
+    "markt_preis": null,
+    "markt_von": null,
+    "basis_preis": 550,
+    "meta": {
+      "mutation": false,
+      "super_mutation": false,
+      "ist_neue_art": false,
+      "zucht_nummer": 644
     }
   }
 ]

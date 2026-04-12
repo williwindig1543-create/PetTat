@@ -2,7 +2,7 @@
   "MarktBot": {
     "name": "MarktBot",
     "passwort": "BOT",
-    "coins": 33768,
+    "coins": 27878,
     "blaetter": 9999,
     "inventar": [
       "EA67758D",
@@ -22,7 +22,8 @@
       "1723714F",
       "A05CB855",
       "BB0349E5",
-      "1C4F4882"
+      "1C4F4882",
+      "B8856A2A"
     ],
     "entdeckte_arten": [
       "Koala",
@@ -40,7 +41,7 @@
   "Willi": {
     "name": "Willi",
     "passwort": "scrypt:32768:8:1$VGUZF0ZKHChNFkMh$c948baa243f90c42b8a91d00865f3cb4f45211d5801dcab91785af68ee4087163c6db41c795490377121404b1fdfd0f778a6b461f324d9bc594627bdc62abfca",
-    "coins": 1219,
+    "coins": 1227,
     "blaetter": 5,
     "inventar": [
       "5736972F",
@@ -100,7 +101,7 @@
     ],
     "zucht_zaehler": 39,
     "ist_bot": false,
-    "letzte_aktivitaet": "2026-03-28T09:44:49.211978+00:00",
+    "letzte_aktivitaet": "2026-04-01T16:50:29.791825+00:00",
     "benachrichtigungen": [
       {
         "id": "e74b553a",
@@ -155,6 +156,12 @@
         "text": "🔁 IchCooler möchte 🦊 Coco Glen tauschen! [#65F26AC4]",
         "zeit": "2026-03-28T09:42:47.778974+00:00",
         "gelesen": true
+      },
+      {
+        "id": "e07a6286",
+        "text": "🛍️ Willi3 hat dein 🐼 Lumi Berry für 8 💰 gekauft!",
+        "zeit": "2026-04-05T08:04:15.782768+00:00",
+        "gelesen": false
       }
     ],
     "einstellungen": {
@@ -193,8 +200,8 @@
   "Willi3": {
     "name": "Willi3",
     "passwort": "scrypt:32768:8:1$ZbJRrD5yVdnO9usj$f6077e2801cceb5693c4c7a0b19a31fe7d9e49d16d953dd63ab33ec6537988d2a79eae1347afab62498d5cc7a424a8e72a48400d26b71d7774b043c0997029e9",
-    "coins": 18009,
-    "blaetter": 7,
+    "coins": 24267,
+    "blaetter": 12,
     "inventar": [
       "4E3D0060",
       "1060045C",
@@ -292,7 +299,6 @@
       "726B6F76",
       "7221E0F7",
       "77CA8C3D",
-      "413415C3",
       "403DBD9A",
       "561C414D",
       "E4948C41",
@@ -308,12 +314,25 @@
       "93AD693F",
       "250FDD94",
       "0FEF54B2",
-      "3C6AE353",
       "BF56CE95",
-      "E69F98AD",
-      "B8856A2A",
-      "9255429B",
-      "488ABBA7"
+      "488ABBA7",
+      "BF1DD581",
+      "76909225",
+      "B167BC6C",
+      "72D9FC56",
+      "A3807100",
+      "7D5CD41C",
+      "24BA4812",
+      "B32DB8A1",
+      "19654E05",
+      "7664E8F8",
+      "2A9D3E13",
+      "096189B9",
+      "37669DDA",
+      "DD66A611",
+      "436D7334",
+      "6E4A3E8F",
+      "4BBEE842"
     ],
     "entdeckte_arten": [
       "Huhn",
@@ -326,9 +345,9 @@
       "Koala-Wolf-Hybrid",
       "Fuchs-Hase-Hybrid"
     ],
-    "zucht_zaehler": 36,
+    "zucht_zaehler": 47,
     "ist_bot": false,
-    "letzte_aktivitaet": "2026-04-01T15:52:03.968422+00:00",
+    "letzte_aktivitaet": "2026-04-12T07:50:00.066100+00:00",
     "benachrichtigungen": [
       {
         "id": "6cc24cf0",
@@ -503,12 +522,22 @@
         "text": "🤖 MarktBot hat dein Tier für 500 💰 gekauft!",
         "zeit": "2026-03-31T15:24:06.532092+00:00",
         "gelesen": true
+      },
+      {
+        "id": "cf4d96ed",
+        "text": "🤖 MarktBot hat dein Tier für 5890 💰 gekauft!",
+        "zeit": "2026-04-01T23:10:35.010110+00:00",
+        "gelesen": true
       }
     ],
     "einstellungen": {
       "auto_verhandlung": "selbst"
     },
-    "registriert_am": "2026-03-21T19:30:31.193982+00:00"
+    "registriert_am": "2026-03-21T19:30:31.193982+00:00",
+    "freunde": [
+      "Sonic",
+      "falram"
+    ]
   },
   "falram31": {
     "name": "falram31",
@@ -615,8 +644,8 @@
   "IchCooler": {
     "name": "IchCooler",
     "passwort": "scrypt:32768:8:1$Pn3C8AqHrBhddvCT$5086106e04108e4670051e4a2f8b1e987558afca284bd5ee3cadbea038bcd2cef7158becef69e10728be6936232d079833d9f5cd117af4dd34f4666e2c114ecb",
-    "coins": 3498,
-    "blaetter": 1,
+    "coins": 3508,
+    "blaetter": 0,
     "inventar": [
       "ACFF2920",
       "BCFF2920",
@@ -849,9 +878,10 @@
       "AAB4634D",
       "28539464",
       "0082DFEF",
-      "1211180C",
       "09FB16FF",
-      "900C8DC2"
+      "900C8DC2",
+      "210203C9",
+      "140C5798"
     ],
     "entdeckte_arten": [
       "Huhn",
@@ -864,7 +894,7 @@
     ],
     "zucht_zaehler": 0,
     "ist_bot": false,
-    "letzte_aktivitaet": "2026-04-01T13:35:27.494933+00:00",
+    "letzte_aktivitaet": "2026-04-11T11:23:29.447172+00:00",
     "benachrichtigungen": [
       {
         "id": "eac63ff9",
@@ -930,7 +960,7 @@
         "id": "6fccb6c1",
         "text": "❌ Willi3 hat dein Trade-Angebot abgelehnt. [#D6189C53]",
         "zeit": "2026-04-01T15:45:02.573711+00:00",
-        "gelesen": false
+        "gelesen": true
       }
     ],
     "einstellungen": {
@@ -1174,19 +1204,41 @@
     "freunde": [],
     "blockiert": []
   },
-  "Willi45": {
-    "name": "Willi45",
-    "passwort": "scrypt:32768:8:1$LifESIWzV0kyKNke$872de6a060a0c8c47315b3a0fb2adf4ff841631af510001799a183e21bfb8d98ec8fadd27aedf246942023572ac0325ed71e062a0fb1ff53b0e8ec9ec0cc1272",
+  "Sonic": {
+    "name": "Sonic",
+    "passwort": "scrypt:32768:8:1$vVcUS4ZMhMXyYIOT$e106ea1c6d8d596ad5c10b0f06842f2f853b0472108364ad3eb49abcabd39a5769ef414e400effd23c1f273d22bdf6f5742b64c96cb0516544f6cc74bfbacc1e",
+    "coins": 302,
+    "blaetter": 4,
+    "inventar": [
+      "FD0D4A8C"
+    ],
+    "entdeckte_arten": [
+      "Koala"
+    ],
+    "zucht_zaehler": 0,
+    "ist_bot": false,
+    "letzte_aktivitaet": "2026-04-02T12:43:58.594393+00:00",
+    "benachrichtigungen": [],
+    "einstellungen": {},
+    "registriert_am": "2026-04-02T10:54:54.116301+00:00",
+    "freunde": [
+      "Willi3"
+    ],
+    "blockiert": []
+  },
+  "falram": {
+    "name": "falram",
+    "passwort": "scrypt:32768:8:1$oVdpAYIjHaXiLpDm$341b125793abd06c4d8aeee40a01f13353ca6bc32902d1ced4eeab166561ebab56cfa7f1912cf43b4c8b5183b5ef039b27c3c26ef44be6dd47dad5a916f4a93c",
     "coins": 300,
     "blaetter": 6,
     "inventar": [],
     "entdeckte_arten": [],
     "zucht_zaehler": 0,
     "ist_bot": false,
-    "letzte_aktivitaet": "2026-04-01T16:27:32.475959+00:00",
+    "letzte_aktivitaet": "2026-04-05T08:28:26.809965+00:00",
     "benachrichtigungen": [],
     "einstellungen": {},
-    "registriert_am": "2026-04-01T16:26:52.519057+00:00",
+    "registriert_am": "2026-04-05T08:17:48.665360+00:00",
     "freunde": [],
     "blockiert": []
   }
