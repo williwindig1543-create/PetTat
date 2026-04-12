@@ -1,4 +1,4 @@
-# 🐾PatTat
+# 🐾 BioBreeder 3D
 
 Ein 3D-Browser-Spiel mit prozedualer Welt, Genetik-System und Züchtungs-Engine.
 
